@@ -26,3 +26,6 @@ The unit you want to convert from. Can be any valid CSS-Unit and can also have a
 
 **`unit2`**<br>
 The unit you want to convert to. Can be any valid CSS-Unit and can also have a numeral prefix eg. `1em` or just `em`. If no number is prefixed the default number will be 1.
+
+##### Return value
+As return you get unit1 converted to unit2 as a float.

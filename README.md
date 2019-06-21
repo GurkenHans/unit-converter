@@ -29,3 +29,15 @@ The unit you want to convert to. Can be any valid CSS-Unit and can also have a n
 
 ##### Return value
 As return you get unit1 converted to unit2 as a float.
+
+### Shortcuts
+
+#### Converting an unit to px
+`var converted = UnitConverter([context[, dimension]]).from(unit)`<br>
+Instead of<br>
+`var converted = UnitConverter([context[, dimension]]).convert(unit).to('px')`
+
+#### Converting px to an unit
+`var converted = UnitConverter([context[, dimension]]).to(unit)`<br>
+Instead of<br>
+`var converted = UnitConverter([context[, dimension]]).convert('px').to(unit)`
